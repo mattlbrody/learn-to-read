@@ -1,0 +1,55 @@
+h1 {
+	font-size: 200px;
+}
+
+div.ui.raised.very.padded.text.container.segment {
+	height:50vh;
+	margin-top:15%;
+	text-align:center;
+}
+
+.right, .left {
+	height: 10px;
+	width: 39%;
+	background-color: black;
+}
+
+
+
+.leftcircle {
+	width: 35px;
+	height: 35px;
+	background-color: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:relative;
+	bottom:12px;
+}
+
+.middlecircle {
+	width: 35px;
+	height: 35px;
+	background-color: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:relative;
+	bottom:12px;
+	transition: background-color 1s;
+}
+
+.middlecircle:hover {
+	background-color: red;
+}
+
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-left: 35px solid black;
+  position:relative;
+  bottom:30px;
+}
