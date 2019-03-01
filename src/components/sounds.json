@@ -1,15 +1,21 @@
 {
-	"a": {
-		"a": "a",
-		"audio": "http://codifyacademy.com/audio/a-sound.m4a"
-	},
-	"m": {
-		"m": "m",
-		"audio": "http://codifyacademy.com/audio/m-sound.m4a"
-	},
-	"s": {
-		"s": "s",
-		"audio": "http://codifyacademy.com/audio/s-sound.m4a"
-	}
+	"sounds": [
+		{
+			"letter": "a",
+			"audio": "http://codifyacademy.com/audio/a-sound.m4a"
+		},
+		{
+			"letter": "m",
+			"audio": "http://codifyacademy.com/audio/m-sound.m4a"
+		},
+		{
+			"letter": "s",
+			"audio": "http://codifyacademy.com/audio/s-sound.m4a"
+		},
+		{
+			"letter": "ma",
+			"audio": "http://codifyacademy.com/audio/s-sound.m4a"
+		}
+	]
 
 }

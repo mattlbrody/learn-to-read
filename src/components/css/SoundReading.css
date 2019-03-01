@@ -1,4 +1,4 @@
-h1 {
+h1.soundLettersOut {
 	font-size: 200px;
 }
 
@@ -8,9 +8,15 @@ div.ui.raised.very.padded.text.container.segment {
 	text-align:center;
 }
 
-.right, .left {
+.oneletter .right, .oneletter .left {
 	height: 10px;
 	width: 39%;
+	background-color: black;
+}
+
+.twoletters .right, .twoletters .left, .twoletters .middle {
+	height: 10px;
+	width: 24%;
 	background-color: black;
 }
 
@@ -36,11 +42,12 @@ div.ui.raised.very.padded.text.container.segment {
 	border-radius: 50px;
 	position:relative;
 	bottom:12px;
-	transition: background-color 1s;
+	
 }
 
-.middlecircle:hover {
+.oneletter .middlecircle:hover {
 	background-color: red;
+	transition: background-color 1s;
 }
 
 
