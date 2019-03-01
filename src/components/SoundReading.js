@@ -1,12 +1,16 @@
 import './css/SoundReading.css';
-import soundFile from './audio/m-sound.m4a';
+import soundData from './sounds.json';
+import soundFileM from './audio/m-sound.m4a';
+import soundFileA from './audio/a-sound.m4a';
 import React from 'react';
 
-const SoundReading = ({letter, onHoverOver}) => {
-
-	onHoverOver = (state) => {
-		let audio = new Audio(soundFile);
-		return audio.play();
+const SoundReading = ({letter, audio, onHoverOver}) => {
+	console.log(soundData.a.a)
+	console.log(audio)
+	onHoverOver = () => {
+		let audioSound = new Audio(soundFileA);
+		console.log(audio)
+		return audioSound.play();
 	}
 
 	return (

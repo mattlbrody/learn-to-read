@@ -1,0 +1,15 @@
+{
+	"a": {
+		"a": "a",
+		"audio": "a-sound"
+	},
+	"m": {
+		"m": "m",
+		"audio": "./audio/m-sound.m4a"
+	},
+	"s": {
+		"s": "s",
+		"audio": "./audio/s-sound.m4a"
+	}
+
+}
