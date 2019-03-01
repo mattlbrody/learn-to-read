@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
-import soundData from './sounds.json';
+import SoundData from './sounds.json';
 import SoundReading from './SoundReading';
 
 class App extends Component {
-	state = { sound: 'a', audio: './audio/a-sound.m4a' }
+	state = { sound: SoundData.a.a, audio: SoundData.a.audio }
 
-
+	onHoverOver = () => {
+		let audioSound = new Audio(this.state.audio);
+		return audioSound.play();
+	}
 
 	render() {
 		return (
 			<SoundReading 
 				letter={this.state.sound}
-				audio={this.state.audio}
+				audio={this.onHoverOver}
 
 			/>
 		);

@@ -1,15 +1,15 @@
 {
 	"a": {
 		"a": "a",
-		"audio": "a-sound"
+		"audio": "http://codifyacademy.com/audio/a-sound.m4a"
 	},
 	"m": {
 		"m": "m",
-		"audio": "./audio/m-sound.m4a"
+		"audio": "http://codifyacademy.com/audio/m-sound.m4a"
 	},
 	"s": {
 		"s": "s",
-		"audio": "./audio/s-sound.m4a"
+		"audio": "http://codifyacademy.com/audio/s-sound.m4a"
 	}
 
 }
