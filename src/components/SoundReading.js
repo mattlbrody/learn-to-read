@@ -8,8 +8,13 @@ import SoundData from './sounds.json';
 			index: 0
 		}
 
-		onHoverOver = () => {
+		onHoverOver0 = () => {
 		let audioSound = new Audio(this.state.data[this.state.index].audio0);
+		return audioSound.play();
+		}
+
+		onHoverOver1 = () => {
+		let audioSound = new Audio(this.state.data[this.state.index].audio1);
 		return audioSound.play();
 		}
 
@@ -27,13 +32,13 @@ import SoundData from './sounds.json';
 						<div className="ui seven column grid">
 							<div className="leftcircle"></div>
 							<div className="left"></div>
-							<div onMouseEnter={this.onHoverOver} className="middlecircle">
+							<div onMouseEnter={this.onHoverOver0} className="middlecircle">
 								<audio id="myAudio">
 							 	<source src="horse.mp3" type="audio/mpeg" />
 								</audio>
 							</div>
 							<div className="middle"></div>
-							<div onMouseEnter={this.onHoverOver} className="middlecircle">
+							<div onMouseEnter={this.onHoverOver1} className="middlecircle">
 								<audio id="myAudio">
 							 	<source src="horse.mp3" type="audio/mpeg" />
 								</audio>
@@ -51,7 +56,7 @@ import SoundData from './sounds.json';
 						<div className="ui five column grid">
 							<div className="leftcircle"></div>
 							<div className="left"></div>
-							<div onMouseEnter={this.onHoverOver} className="middlecircle">
+							<div onMouseEnter={this.onHoverOver0} className="middlecircle">
 								<audio id="myAudio">
 							 	<source src={this.state.data[this.state.index].audio0} type="audio/mpeg" />
 								</audio>
