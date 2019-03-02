@@ -60,3 +60,10 @@ div.ui.raised.very.padded.text.container.segment {
   position:relative;
   bottom:30px;
 }
+
+h1.twoLetter {
+	display: inline;
+}
+h1.twoLetter:first-child {
+	margin-right: 50px;
+}
