@@ -24,6 +24,7 @@ class ChooseTheLetter extends Component {
 
 
 	render() {
+		this.playSound();
 		if (this.state.activity[this.state.index].letter0 === this.state.activity[this.state.index].answer) {
 			return (
 				<div className="ui raised very padded text container">
@@ -46,7 +47,7 @@ class ChooseTheLetter extends Component {
 					  </div>
 					</div>
 					<h2>Play the sound</h2>
-					<button onClick={this.playSound()} className="ui positive button"><i className="icon play"></i></button>
+					<button onClick={this.playSound} className="ui positive button"><i className="icon play"></i></button>
 				</div>
 			)
 		} else {
@@ -71,7 +72,7 @@ class ChooseTheLetter extends Component {
 					  </div>
 					</div>
 					<h2>Play the sound</h2>
-					<button onClick={this.playSound()} className="ui positive button"><i className="icon play"></i></button>
+					<button onClick={this.playSound} className="ui positive button"><i className="icon play"></i></button>
 				</div>
 			);
 		}
