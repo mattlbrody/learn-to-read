@@ -1,15 +1,37 @@
-img {
-	border: 1px solid black;
-}
-
-h1 {
-	font-size: 200px;
-}
-
-.container {
+.container-drag {
 	text-align: center;
 }
 
-button {
-	width: 50%;
+.wip {
+	position: absolute;
+	width: 150px;
+	height: 100vh;
+	left: 0;
+	top: 10;
+	background-color: #eee;
+	border-right: 1px dotted;
+}
+
+.header {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	background-color: #e0e0e0;
+	width: 100%;
+}
+
+.task-header {
+	display: inline-block;
+	background-color: skyblue;
+	width: 100%;
+}
+
+.droppable {
+	position: absolute;
+	width: 150px;
+	height: 100vh;
+	right: 0;
+	top: 10;
+	background-color: #9e9e9e;
+	border-left: 1px dotted;
 }

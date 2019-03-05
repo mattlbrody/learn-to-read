@@ -3,8 +3,6 @@
 		{
 			"letter0": "a",
 			"letter1": "m",
-			"audio0": "http://codifyacademy.com/audio/a-sound.m4a",
-			"audio1": "http://codifyacademy.com/audio/m-sound.m4a",
 			"answer0": "a",
 			"answer1": "m",
 			"answerAudio0": "http://codifyacademy.com/audio/a-sound.m4a",
@@ -13,8 +11,6 @@
 		{
 			"letter0": "s",
 			"letter1": "a",
-			"audio0": "http://codifyacademy.com/audio/s-sound.m4a",
-			"audio1": "http://codifyacademy.com/audio/a-sound.m4a",
 			"answer0": "a",
 			"answer1": "s",
 			"answerAudio0": "http://codifyacademy.com/audio/a-sound.m4a",

@@ -1,0 +1,19 @@
+img {
+	border: 1px solid black;
+}
+
+h1 {
+	font-size: 200px;
+}
+
+.container {
+	text-align: center;
+}
+
+button {
+	width: 50%;
+}
+
+#drop0, #drop1 {
+	height: 285px;
+}
